@@ -1,0 +1,40 @@
+.add-book {
+  padding: 2rem;
+  max-width: 600px;
+  margin: auto;
+  background: #fdfdfd;
+  border-radius: 10px;
+}
+
+.add-book form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.add-book label {
+  font-weight: bold;
+  display: block;
+  margin-bottom: 0.3rem;
+}
+
+.add-book input[type="text"],
+.add-book input[type="date"] {
+  padding: 0.5rem;
+  border: 1px solid #aaa;
+  border-radius: 4px;
+  width: 100%;
+}
+
+.add-book button {
+  background-color: #ffd803;
+  border: none;
+  padding: 0.75rem;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.error {
+  color: red;
+  font-size: 0.8rem;
+}

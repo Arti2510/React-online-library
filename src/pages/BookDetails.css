@@ -1,0 +1,33 @@
+.book-details {
+  padding: 2rem;
+  max-width: 600px;
+  margin: auto;
+  background: #f8f8f8;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+.book-details img {
+  width: 150px;
+  height: auto;
+  object-fit: cover;
+  display: block;
+  margin: 0 auto 1rem;
+}
+
+.book-details h2 {
+  text-align: center;
+}
+
+.book-details p {
+  margin: 0.5rem 0;
+}
+
+.book-details button {
+  margin-top: 1rem;
+  padding: 0.5rem 1rem;
+  background-color: #bae8e8;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
